@@ -38,6 +38,11 @@ Semanticc HTML elements are used to define different parts of the web page.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+display: block; has some whitespace above and below it and tolerates no HTML elemtns next to it, except when ordered otherwise.
+
+display: inline; is inside the current black on the same line. 
+
+
 3. What are the 4 areas of the box model?
 
 Content, Border, Width, Padding
