@@ -71,12 +71,39 @@ p {
     margin: 0 auto;
 }
 
+.menu {
+    display: flex;
+}
+
+.navigation {
+    text-decoration: none;
+    margin: auto;
+}
+
+.navigation a {
+    margin-left: 70px;
+    margin-bottom: 0px;
+    background: white;
+    color: black;
+}
+
+.mainImg {
+    display: flex;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 23px;
+    width: auto;
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    align-items: center;
+    justify-content: center;
 }
 
 .top-content .text-container {
@@ -143,4 +170,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box-1 {
+    background-color: teal;
+}
+#box-2 {
+    background-color: gold;
+}
+
+#box-3 {
+    background-color: cadetblue;
+}
+
+#box-4 {
+    background-color: coral;
+
+}
+#box-5 {
+    background-color: crimson;
+}
+
+#box-6 {
+    background-color: forestgreen;
+
+}
+
+#box-7 {
+    background-color: darkorchid;
+
+}
+
+#box-8 {
+    background-color: hotpink;
+
+}
+
+#box-9 {
+    background-color: indigo;
+}
+
+#box-10 {
+    background-color: dodgerblue;
 }
